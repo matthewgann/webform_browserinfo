@@ -1,0 +1,8 @@
+name = Webform Browser Info
+description = "Add field to get browser info"
+core = 7.x
+package = "webform"
+version = "7.x-1.0"
+core = "7.x"
+project = "webform_browserinfo"
+files[] = webform_browserinfo.module

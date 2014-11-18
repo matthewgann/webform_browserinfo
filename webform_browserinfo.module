@@ -1,0 +1,24 @@
+<?php
+function webform_browserinfo_webform_component_info() {
+  $components = array();
+  $components['browserinfo'] = array(
+    'label' => t('Browser Info'),
+    'description' => t('Get the browser version'),
+    'features' => array(
+      'csv' => TRUE,
+      'email' => TRUE,
+      'email_address' => FALSE,
+      'email_name' => FALSE,
+      'required' => FALSE,
+      'title_display' => FALSE,
+      'title_inline' => FALSE,
+      'conditional' => FALSE,
+      'group' => FALSE,
+      'spam_analysis' => FALSE,
+      'attachment' => FALSE,
+    ),
+    'file' => 'components/browserinfo.inc',
+  );
+  return $components;
+}
+?>
